@@ -1,0 +1,243 @@
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.title-details {
+    font-size: 18px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+/* Header Section */
+
+#header-area {
+    background-image: url(../images//Help-Children.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding-top: 150px;
+}
+
+.header p {
+    
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+a, #btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #02AADB;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+/* Donation Section */
+
+#donate-area {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.donate-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.amount-box p {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.select-ammount {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.amount-box {
+    width: 80px;
+    height: 60px;
+    background-color: rgba(2, 168, 219, 0.068);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 6px 0;
+    border-radius: 4px;
+    margin: 10px 10px;
+}
+
+#selected-amount {
+    background-color: rgba(2, 168, 219, 0.068);
+    color: #02AADB;
+    border: 2px solid #02AADB;
+}
+
+#other-amount {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#btn {
+    border: none;
+    outline: none;
+    margin-top: 16px;
+}
+
+/* Donation Plan Section */
+#donate-plan {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.plan-box {
+    display: flex;
+    
+}
+
+.single-plan {
+    background-color: aqua;
+    width: 360px;
+    height: 250px;
+    margin: 10px 10px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.single-plan img {
+    width: 50px;
+}
+
+.single-plan h3 {
+    margin-top: 10px;
+}
+
+.single-plan p {
+    margin-top: 10px;
+}
+
+#food-color {
+    background-color: rgba(7, 243, 58, 0.3);
+}
+
+#shelter-color {
+    background-color: rgba(248, 4, 57, 0.3);
+}
+
+#education-color {
+    background-color: rgba(250, 233, 1, 0.3);
+}
+
+/* Volunterr Registration Section */
+
+.bg {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #2A3041;
+    margin: 50px 0;
+}
+.img {
+    width: 36%;
+    margin: 0 2%;
+}
+
+.content {
+    width: 60%;
+}
+
+.content h3 {
+    color: #02AADB;
+    margin-top: 50px;
+}
+
+.content p {
+ color: white;
+ font-family: 'Inter', sans-serif;
+ font-size: 30px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+.bg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 30px 30px;
+   
+    
+}
+
+/* Get update Section */
+.get-update-content {
+    width: 50%;
+    margin: 0 auto;
+}
+.form-box {
+    width: 100%;
+    height: 140px;
+    background-color: rgba(2, 168, 219, 0.144);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px 0 0 4px;
+}
+
+#sub-btn {
+    border-radius: 0 4px 4px 0;
+    margin-left: -6px;
+    background-color: #02AADB;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2A3041;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer h2 {
+    color: #02AADB;
+}
